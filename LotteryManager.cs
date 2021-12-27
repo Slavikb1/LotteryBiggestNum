@@ -39,6 +39,7 @@ namespace TestingLotteryu
                     }
                 }
                 p.AddedNum = byte.Parse(LineData[8]);
+                LotteryTable.Add(p.IdentityNum, p);
             }
             Console.WriteLine(maxNumber);
         }
